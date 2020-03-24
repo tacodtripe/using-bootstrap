@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f72210;
+    height: 40px;
+}
+
+header a {
+    color: white;
+}
+
+.news-logo {
+    fill: white;
+}
+
+.custom-badge {
+    background-color: white;
+    padding: 2px;
+    color: black;
+}
+
+img[alt="weather"] {
+    width: 30px;
+}
