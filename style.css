@@ -7,9 +7,11 @@
 body {
     min-width: 392px;
     font-family: 'Roboto Condensed', sans-serif;
+    max-width: 1310px;
+    margin: 0 auto;
 }
 
-header {
+.header-fr {
     background-color: #f72210;
 }
 
@@ -26,11 +28,12 @@ header a {
 
 .news-logo {
     fill: white;
+    width: 8.5rem;
 }
 
 .custom-badge {
     background-color: white;
-    padding: 6px;
+    padding: 4px;
     color: #f72210;
 }
 
@@ -40,7 +43,7 @@ header a {
 }
 
 img[alt="weather"] {
-    width: 30px;
+    width: 1.5rem;
 }
 
 .navbar-toggler {
@@ -48,7 +51,7 @@ img[alt="weather"] {
 }
 
 .navbar-toggler-icon {
-    color: white;
+    color: #ffffffab;
     width: 30px;
     height: initial;
 }
@@ -65,11 +68,49 @@ img[alt="weather"] {
     background-color: white;
 }
 
-#top-navbar a {
+#top-navbar-lg a {
     color: black;
+    font-size: 19px;
 }
 
 #top-navbar-lg {
     background-color: white;
-    width: 100%;
+    width: calc(100% - 93px);
+    margin: auto 0;
+}
+
+
+#header-bottom-navbar:before {
+    content: "";
+    width: 93px;
+    background-color: #f72210;
+    border-left: 21px solid white;
+    position: absolute;
+    right: 0;
+    top:0;
+    border-top: 14px solid #f72210;
+    display: block;
+}
+
+input {
+    border: none;
+    width: 6rem;
+}
+
+.top-navbar-ul {
+    height: 80%;
+    padding: 1em 0;
+    margin: 0;
+    line-height: 0;
+}
+
+@media (min-width: 992px) {
+    header {
+        height: unset;
+    }
+
+    .news-logo {
+        width: 396px;
+        height: 60px;
+    }
 }
