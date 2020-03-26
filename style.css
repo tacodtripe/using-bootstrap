@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    min-width: 392px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 header {
     background-color: #f72210;
-    height: 40px;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: white;
 }
 
 header a {
@@ -19,10 +30,46 @@ header a {
 
 .custom-badge {
     background-color: white;
-    padding: 2px;
-    color: black;
+    padding: 6px;
+    color: #f72210;
+}
+
+.custom-badge:focus,
+.custom-badge:hover {
+    color: #f72210;
 }
 
 img[alt="weather"] {
     width: 30px;
+}
+
+.navbar-toggler {
+    height: 50px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    width: 30px;
+    height: initial;
+}
+
+#subscribe-container {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#subscribe-container a {
+    font-size: 18px;
+}
+
+#top-navbar {
+    background-color: white;
+}
+
+#top-navbar a {
+    color: black;
+}
+
+#top-navbar-lg {
+    background-color: white;
+    width: 100%;
 }
