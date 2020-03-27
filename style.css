@@ -95,6 +95,7 @@ img[alt="weather"] {
 input {
     border: none;
     width: 6rem;
+    font-size: 19px;
 }
 
 .top-navbar-ul {
@@ -102,6 +103,15 @@ input {
     padding: 1em 0;
     margin: 0;
     line-height: 0;
+}
+
+#search-icon {
+    background: url("https://g.newsweek.com/www/images/icon-search-glass.svg") no-repeat;
+    background-size: contain;
+    width: 1.4rem;
+    height: 1.4rem;
+    right: 24%;
+    bottom: 3px;
 }
 
 @media (min-width: 992px) {
