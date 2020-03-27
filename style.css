@@ -60,6 +60,21 @@ img[alt="weather"] {
     width: 40%;
 }
 
+.collapse-hover:hover,
+.collapse-hover:focus {
+    background-color: black;
+}
+
+.collapse-hover:hover .white-hover,
+.collapse-hover:focus .white.hover {
+    color: white;
+}
+
+.collapse-hover:hover .orange-hover,
+.collapse-hover:focus .orange-hover {
+    color:#f72210;
+}
+
 #subscribe-container {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -121,8 +136,8 @@ input {
 #search-icon-collapse {
     background: url("https://g.newsweek.com/www/images/icon-search-glass.svg") no-repeat;
     background-size: contain;
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 20px;
+    height: 20px;
     right: 5px;
     bottom: 3px;
 }
