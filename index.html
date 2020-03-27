@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-        <header class="container-fluid">
+        <header class="container-fluid position-fixed">
             <div class="row d-flex align-items-center header-fr">
                 <a href="#" class="col-auto order-lg-2 offset-lg-2 pt-lg-4 pb-lg-4">
                     <svg class="news-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
@@ -32,105 +32,8 @@
                 <button class="col-auto order-lg-4 navbar-toggler d-lg-none" type="button" data-target="#top-navbar" data-toggle="collapse">
                     <i class="fas fa-bars navbar-toggler-icon"></i>
                 </button>
-                <div class="collapse navbar-collapse d-lg-none" id="top-navbar">
-                    <div class="d-flex justify-content-end">
-                        <ul class="navbar-nav collapse-menu">
-                            <li class="navbar-item border-none d-flex  align-items-center flex-fill pl-1 position-relative">
-                                <input type="text" name="search-bar" placeholder="Search" id="collapse-input">
-                                <span class="position-absolute" id="search-icon-collapse"></span>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">U.S.</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">World</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">Business</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">Tech & Science</span>
-                                        <span class="orange-hover">></span>
-                                    </div></a>
-                                </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">Culture</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">Newsgeek</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">Sports</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">Health</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">The Debate</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">Vantage</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
-                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
-                                    <div class="d-flex justify-content-between w-100">
-                                        <span class="white-hover">Weather</span>
-                                        <span class="orange-hover">></span>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-            <div class="row d-none d-lg-flex position-relative border-bottom" id="header-bottom-navbar">
+            <div class="row d-none d-lg-flex position-relative border-bottom bg-white" id="header-bottom-navbar">
                 <div class="" id="top-navbar-lg">
                     <ul class="navbar-nav navbar-expand d-flex justify-content-between top-navbar-ul">
                         <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
@@ -174,6 +77,141 @@
                 </div>
             </div>
         </header>
+        <div class="collapse navbar-collapse d-lg-none position-fixed" id="top-navbar">
+            <div class="d-flex justify-content-end">
+                <ul class="navbar-nav collapse-menu">
+                    <li class="navbar-item border-none d-flex  align-items-center flex-fill pl-1 position-relative">
+                        <input type="text" name="search-bar" placeholder="Search" id="collapse-input">
+                        <span class="position-absolute" id="search-icon-collapse"></span>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">U.S.</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">World</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">Business</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">Tech & Science</span>
+                                <span class="orange-hover">></span>
+                            </div></a>
+                        </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">Culture</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">Newsgeek</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">Sports</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">Health</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">The Debate</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">Vantage</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="navbar-item  d-flex  flex-fill pr-1 pl-1 collapse-hover">
+                        <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                            <div class="d-flex justify-content-between w-100">
+                                <span class="white-hover">Weather</span>
+                                <span class="orange-hover">></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <main class="container-fluid bg-light">
+            <div class="row align-items-baseline">
+                <div class="col-12 col-md-7 order-md-2 p-0">
+                    <section class="p-3 border bg-white">
+                    <h3 class="text-secondary section-title">Top Story</h3>
+                    <div class="w-100 position position-relative">
+                        <img class="w-100" src="https://d.newsweek.com/en/full/1576593/china-united-states-flag-beijing.webp?w=591&h=364&f=c951543fd525705c8cdd166d42fa1102" alt="flag">
+                        <span class="position-absolute font-weight-bold bg-light p-2 story-span">
+                            WORLD
+                        </span>
+                    </div>
+                    <a class="section-header font-weight-bold pt-2 d-block" href="#">
+                        Why the U.S. and China Aren't Teaming Up to Defeat Coronavirus
+                    </a>
+                    <p class="section-summary pt-2 text-justify">
+                        While the United States and the Soviet Union banded together in World War II, experts say the U.S. and China's economic superpower rivalry runs too deep for them to cooperate against the new coronavirus.
+                    </p>
+                    </section>
+                </div>
+                <div class="col-12 col-md-5 order-md-1 p-0">
+                    <section class="p-3 border bg-white">
+                        <h3 class="text-secondary section-title">featured stories</h3>
+                        <div class="w-100 position position-relative">
+                            <img class="w-100" src="https://d.newsweek.com/en/full/1577094/donald-trump-poll-approval-rating-coronavirus.webp?w=767&h=512&q=90&f=382101b0f97977ec229408ad5afcb092" alt="trump">
+                            <span class="position-absolute font-weight-bold bg-light p-2 story-span">
+                                POLITICS
+                            </span>
+                        </div>
+                        <a class="section-header font-weight-bold pt-2 d-block" href="#">
+                            Trump Approval Hits Record High, Coronavirus Crisis Brings Big Risks: Poll
+                        </a>
+                        <p class="section-summary pt-2 text-justify">
+                            The new poll also said it is the first time disapproval of President Donald Trump's performance has been lower than approval.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </main>
 
 
 
