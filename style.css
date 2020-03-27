@@ -56,6 +56,10 @@ img[alt="weather"] {
     height: initial;
 }
 
+.collapse-menu {
+    width: 40%;
+}
+
 #subscribe-container {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -111,6 +115,15 @@ input {
     width: 1.4rem;
     height: 1.4rem;
     right: 24%;
+    bottom: 3px;
+}
+
+#search-icon-collapse {
+    background: url("https://g.newsweek.com/www/images/icon-search-glass.svg") no-repeat;
+    background-size: contain;
+    width: 1.4rem;
+    height: 1.4rem;
+    right: 5px;
     bottom: 3px;
 }
 

@@ -32,15 +32,100 @@
                 <button class="col-auto order-lg-4 navbar-toggler d-lg-none" type="button" data-target="#top-navbar" data-toggle="collapse">
                     <i class="fas fa-bars navbar-toggler-icon"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="top-navbar">
+                <div class="collapse navbar-collapse d-lg-none" id="top-navbar">
                     <div class="d-flex justify-content-end">
-                        <ul class="navbar-nav">
-                            <li class="navbar-item"><a href="#" class="navbar-link font-weight-bold border-right">U.S.</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-link font-weight-bold">World</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-link font-weight-bold">Bussines</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-link font-weight-bold"></a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-link">Link 5</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-link">Link</a></li>
+                        <ul class="navbar-nav collapse-menu">
+                            <li class="navbar-item border-none d-flex  align-items-center flex-fill pl-1 position-relative">
+                                <input type="text" name="search-bar" placeholder="Search">
+                                <span class="position-absolute" id="search-icon-collapse"></span>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>U.S.</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>World</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>Business</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>Tech & Science</span>
+                                        <span>></span>
+                                    </div></a>
+                                </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>Culture</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>Newsgeek</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>Sports</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>Health</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>The Debate</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>Vantage</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="navbar-item  d-flex  flex-fill pr-1 pl-1">
+                                <a href="#" class="nav-link font-weight-bold text-dark w-100">
+                                    <div class="d-flex justify-content-between w-100">
+                                        <span>Weather</span>
+                                        <span>></span>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -48,18 +133,43 @@
             <div class="row d-none d-lg-flex position-relative border-bottom" id="header-bottom-navbar">
                 <div class="" id="top-navbar-lg">
                     <ul class="navbar-nav navbar-expand d-flex justify-content-between top-navbar-ul">
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">U.S.</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">World</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">Business</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">Tech & Science</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">Culture</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">Newsgeek</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">Sports</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">Health</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">The Debate</a></li>
-                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">Vantage</a></li>
-                        <li class="navbar-item d-flex justify-content-center flex-fill pr-1 pl-1"><a href="#" class="nav-link font-weight-bold">Weather</a></li>
-                        <li class="navbar-item border-none d-flex justify-content-center align-items-center flex-fill pl-1 position-relative"><input type="text" name="search-bar" placeholder="Search"><span class="position-absolute" id="search-icon"></span></li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">U.S.</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">World</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">Business</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">Tech & Science</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">Culture</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">Newsgeek</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">Sports</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">Health</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">The Debate</a>
+                        </li>
+                        <li class="navbar-item border-right d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">Vantage</a>
+                        </li>
+                        <li class="navbar-item d-flex justify-content-center flex-fill pr-1 pl-1">
+                            <a href="#" class="nav-link font-weight-bold">Weather</a>
+                        </li>
+                        <li class="navbar-item border-none d-flex justify-content-center align-items-center flex-fill pl-1 position-relative">
+                            <input type="text" name="search-bar" placeholder="Search">
+                            <span class="position-absolute" id="search-icon"></span>
+                        </li>
                     </ul>
                 </div>
             </div>
