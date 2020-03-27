@@ -60,6 +60,10 @@ img[alt="weather"] {
     width: 40%;
 }
 
+#collapse-input {
+    margin-top: 0;
+}
+
 .collapse-hover:hover,
 .collapse-hover:focus {
     background-color: black;
@@ -115,6 +119,11 @@ input {
     border: none;
     width: 6rem;
     font-size: 19px;
+    margin-top: -4px;
+}
+
+input:focus {
+    outline: none;
 }
 
 .top-navbar-ul {
@@ -127,10 +136,10 @@ input {
 #search-icon {
     background: url("https://g.newsweek.com/www/images/icon-search-glass.svg") no-repeat;
     background-size: contain;
-    width: 1.4rem;
-    height: 1.4rem;
-    right: 24%;
-    bottom: 3px;
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    bottom: 2px;
 }
 
 #search-icon-collapse {
