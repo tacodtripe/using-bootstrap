@@ -7,7 +7,6 @@
 body {
   min-width: 392px;
   font-family: 'Roboto Condensed', sans-serif;
-  max-width: 1310px;
   margin: 0 auto;
 }
 
@@ -162,6 +161,10 @@ input:focus {
   bottom: 3px;
 }
 
+.top-stories-bottom-img {
+  max-width: 95px;
+}
+
 .story-span {
     bottom: 0;
     left: 0;
@@ -191,6 +194,15 @@ input:focus {
     line-height: 18px;
     font-family: Arial,Helvetica,sans-serif;
     color: #333;
+}
+
+.opinion-header {
+  color: black;
+  font-size: 15px;
+}
+
+.opinion-header:hover {
+  color: #f72210
 }
 
 @media (min-width: 992px) {
