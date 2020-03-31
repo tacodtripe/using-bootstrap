@@ -205,6 +205,11 @@ input:focus {
   color: #f72210
 }
 
+.opinion-img {
+  width: 63px;
+  height: 63px;
+}
+
 @media (min-width: 992px) {
   header {
     height: unset;
