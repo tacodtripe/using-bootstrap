@@ -15,7 +15,17 @@ header {
     top: 0;
 }
 
-main {margin-top: 50px;}
+main {
+  margin-top: 50px;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-black:hover {
+  color: black;
+}
 
 .header-fr {
   background-color: #f72210;
@@ -208,6 +218,38 @@ input:focus {
 .opinion-img {
   width: 63px;
   height: 63px;
+}
+
+.debate-section {
+  border-top: solid 4px rgb(249, 40, 89);;
+}
+
+.debate-section:last-child {
+  border-top: solid 4px #1c87fb;
+}
+
+.debate-text {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.debate-img {
+  width: 95px;
+  height: 95px;
+}
+
+.debate-absolute-img {
+  width: 63px;
+  height: 63px;
+  bottom: 10%;
+  right: 3%;
+}
+
+.debate-divider {
+  background-color: black;
+  width: 40px;
+  height: 40px;
 }
 
 @media (min-width: 992px) {
