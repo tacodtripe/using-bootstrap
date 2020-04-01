@@ -181,7 +181,8 @@ input:focus {
     color: #f72210;
 }
 
-.section-title {
+.section-title,
+.magazine-topic {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
@@ -285,6 +286,28 @@ input:focus {
 
 #sing-up-button:hover {
   background-color: rgb(132, 132, 132);
+}
+
+.magazine-header {
+  margin-top: 18px;
+  font-size: 1.2rem;
+}
+
+.magazine-span {
+  background-color: #f72210;
+  color: white;
+}
+
+.magazine-topic {
+  color: #f72210;
+}
+
+.magazine-topic:hover {
+  color: #f72210;
+}
+
+.magazine-text {
+  font-size: 16px;
 }
 
 @media (min-width: 992px) {
