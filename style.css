@@ -273,6 +273,20 @@ input:focus {
   font-size: 12px;
 }
 
+.icon-img {
+  height: 34px;
+  width: 35px;
+}
+
+#sing-up-button {
+  width: 81px;
+  background-color: #666;
+}
+
+#sing-up-button:hover {
+  background-color: rgb(132, 132, 132);
+}
+
 @media (min-width: 992px) {
   header {
     height: unset;
