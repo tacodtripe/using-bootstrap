@@ -261,6 +261,18 @@ input:focus {
   font-size: 17px;
 }
 
+.travel-span {
+  background-color: rgba(72, 105, 138, 0.8) !important;
+  color: white;
+  font-size: 12px;
+}
+
+.travel-span:hover {
+  background-color: rgba(71,82,93,.8) !important;
+  color: white;
+  font-size: 12px;
+}
+
 @media (min-width: 992px) {
   header {
     height: unset;
