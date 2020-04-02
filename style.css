@@ -298,6 +298,10 @@ input:focus {
   color: white;
 }
 
+.last-magazine-span {
+  bottom: 28px;
+}
+
 .magazine-topic {
   color: #f72210;
 }
