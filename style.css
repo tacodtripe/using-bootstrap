@@ -321,6 +321,15 @@ input:focus {
   height: 52px;
 }
 
+.section-header-orange {
+  color: #f72210;
+  font-size: 22px;
+}
+
+.section-header-orange:hover {
+  color: #f72210;
+}
+
 @media (min-width: 992px) {
   header {
     height: unset;
