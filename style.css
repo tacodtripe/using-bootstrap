@@ -314,6 +314,13 @@ input:focus {
   font-size: 16px;
 }
 
+.slide-span {
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #f72210;
+  width: 70px;
+  height: 52px;
+}
+
 @media (min-width: 992px) {
   header {
     height: unset;
