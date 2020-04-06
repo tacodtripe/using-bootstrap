@@ -330,6 +330,33 @@ input:focus {
   color: #f72210;
 }
 
+.img-container {height: 257px;width: 260px;}
+
+#subscribe-back {
+
+}
+
+#subscribe-front {
+  top: 14px;
+  left: 89px;
+}
+
+.newsletter-img {height: 160px;object-fit: cover;}
+
+.news-letter-badge {
+  width: 100px;
+  height: 38px;
+  font-size: 17px;
+  border-radius: 0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #f72210;
+}
+
+.news-letter-badge:hover {
+  background-color: #c51e0f;
+}
+
 @media (min-width: 992px) {
   header {
     height: unset;
