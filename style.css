@@ -357,6 +357,36 @@ input:focus {
   background-color: #c51e0f;
 }
 
+.footer-logo {
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
+}
+
+a:hover .footer-link {
+  color: black!important;
+}
+
+.footer-icon {
+  color: rgb(83, 83, 83);
+  font-size: 26px;
+}
+
+.footer-icon:hover {
+  color: #405de6!important;
+}
+
+#footer-p {
+  font-size: 12px;
+  color: #666;
+}
+
+@media (max-width: 768px){
+  .footer-link  {
+    border-right: none!important;
+  }
+}
+
 @media (min-width: 992px) {
   header {
     height: unset;
