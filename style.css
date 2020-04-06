@@ -330,10 +330,9 @@ input:focus {
   color: #f72210;
 }
 
-.img-container {height: 257px;width: 260px;}
-
-#subscribe-back {
-
+.img-container {
+  height: 257px;
+  width: 260px;
 }
 
 #subscribe-front {
@@ -341,7 +340,10 @@ input:focus {
   left: 89px;
 }
 
-.newsletter-img {height: 160px;object-fit: cover;}
+.newsletter-img {
+  height: 160px;
+  object-fit: cover;
+}
 
 .news-letter-badge {
   width: 100px;
