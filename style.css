@@ -409,6 +409,10 @@ a:hover .footer-link {
   height: 214px;
 }
 
+.editors-md {
+  width: calc(100% / 2 - 10px);
+}
+
 @media (max-width: 768px){
   .footer-link  {
     border-right: none!important;
