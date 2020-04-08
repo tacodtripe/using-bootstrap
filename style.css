@@ -349,7 +349,8 @@ input:focus {
   object-fit: cover;
 }
 
-.news-letter-badge {
+.news-letter-badge,
+.subscribe-badge {
   width: 100px;
   height: 38px;
   font-size: 17px;
@@ -359,8 +360,14 @@ input:focus {
   background-color: #f72210;
 }
 
-.news-letter-badge:hover {
+.news-letter-badge:hover,
+.subscribe-badge:hover {
   background-color: #c51e0f;
+}
+
+.subscribe-badge {
+  width: 120px;
+  margin: 0;
 }
 
 .footer-logo {
