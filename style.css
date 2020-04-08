@@ -349,6 +349,10 @@ input:focus {
   object-fit: cover;
 }
 
+.newsletter-img-md {
+  max-width: 191px;
+}
+
 .news-letter-badge,
 .subscribe-badge {
   width: 100px;
@@ -363,6 +367,10 @@ input:focus {
 .news-letter-badge:hover,
 .subscribe-badge:hover {
   background-color: #c51e0f;
+}
+
+.news-letter-badge-md {
+  margin: 0;
 }
 
 .subscribe-badge {
@@ -392,6 +400,7 @@ a:hover .footer-link {
 #footer-p {
   font-size: 12px;
   color: #666;
+  line-height: 0.7;
 }
 
 .travel-md {
@@ -400,7 +409,7 @@ a:hover .footer-link {
 
 .overflow-y-scroll {
   overflow-y: scroll;
-  max-height: 2623px;
+  max-height: 3058px;
   -ms-overflow-style: none;
 }
 
