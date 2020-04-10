@@ -429,9 +429,6 @@ a:hover .footer-link {
   width: calc(100% / 2 - 10px);
 }
 
-.featured-slideshows article {
-  width: 100%!important;
-}
 
 @media (min-width: 576px) {
   header {
