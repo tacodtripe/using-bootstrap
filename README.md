@@ -2,8 +2,6 @@
 
 > Seventh project in the HTML/CSS module.
 
-![screenshot](img/app_screenshot.jpg)
-
 This is a microverse HTML/CSS project, I was required to exercise the use of the Bootstrap framework.
 I managed to create a clone of The News Week page - Link to the original page is right here [News Week](https://www.newsweek.com/).
 
@@ -30,3 +28,5 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project, enjoy!
+
+![screenshot](img/app_screenshot.jpg)
