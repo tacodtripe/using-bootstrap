@@ -31,6 +31,10 @@ main {
   background-color: #f72210;
 }
 
+.normal-width {
+  width: initial;
+}
+
 header a {
     color: white;
   }
@@ -133,7 +137,7 @@ img[alt="weather"] {
   position: absolute;
   right: 0;
   top: 0;
-  border-top: 11px solid #f72210;
+  border-top: 10px solid #f72210;
   display: block;
   z-index: 2;
 }
