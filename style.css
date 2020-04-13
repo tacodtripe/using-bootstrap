@@ -428,6 +428,7 @@ a:hover .footer-link {
   overflow-y: scroll;
   max-height: 3058px;
   -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .overflow-y-scroll::-webkit-scrollbar {
